@@ -1,0 +1,21 @@
+{
+  "name": "exercices",
+  "version": "1.0.0",
+  "description": "TypeScript exercices",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node ./build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "code",
+    "examples",
+    "TypeScript"
+  ],
+  "author": "Amine BELBAHAR",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "typescript": "^4.7.3"
+  }
+}
